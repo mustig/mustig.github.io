@@ -1,3 +1,3 @@
-## SA6TIG @ JO58tf
+## Welcome
 
-A website mostly about (amateur) radio
+Radio seller I need your strongest radios
