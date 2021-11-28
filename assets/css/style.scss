@@ -17,7 +17,7 @@ blue      #268bd2  reserved keywords
 cyan      #2aa198  strings, numbers
 green     #859900  operators, other keywords
 */
-/*
+
 $base03:    #002b36;
 $base02:    #073642;
 $base01:    #586e75;
@@ -34,17 +34,23 @@ $violet:    #6c71c4;
 $blue:      #268bd2;
 $cyan:      #2aa198;
 $green:     #859900;
-*/
+
+header h1 {
+        color: $violet;
+	text-shadow: none;
+
+}
+
 h1, h2, h3, h4, h5, h6 {
-	color: #6c71c4; /*$violet*/
+	color: $violet;
 	text-shadow: none;
 }
 
 body {
-	color: #93a1a1; /*$base1*/
+	color: $base1;
 }
 
 a {
-	color: #cb4b16; /*$orange*/
+	color: $orange;
 	text-shadow: none;
 }
