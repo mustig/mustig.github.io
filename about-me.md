@@ -15,4 +15,12 @@ title: About me
 
 - Anytone 878, Mk2
 - Wouxun KG-UV9D Mate
-- Arrow II antenna
+- Diamond RH771
+- Arrow II Yagi
+
+### Bits and bobs
+
+ - Msi.sdr
+ - Nooelec Smart
+ - NanoVNA
+ - TinySA

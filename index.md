@@ -1,17 +1,17 @@
 ---
 layout: default
 title: Main page
-order: -1
+weight: -10
 ---
 ## Welcome
 
-Radio seller I need your strongest radios
-
-[About me](./about-me.html)
-
-{% assign pagelist = site.pages | sort_natural: 'order' %}
+{% assign pagelist = site.pages | sort_natural: 'weight' %}
 {% for p in pagelist %}
   {% if p.title != nil %}
-  - {{ p.title }} ({{ p.url }})
+    {% if p.url == page.url %}
+  - [{{ p.title }}]({{ p.url }})
+    {% else %}
+  - [{{ p.title }}]({{ p.url }})
+    {% endif %}
   {% endif %}
 {% endfor %}
