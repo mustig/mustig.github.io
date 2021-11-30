@@ -35,6 +35,10 @@ $blue:      #268bd2;
 $cyan:      #2aa198;
 $green:     #859900;
 
+header {
+	background: none;
+}
+
 header h1 {
         color: $violet;
 	text-shadow: none;
@@ -48,6 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
 	color: $base1;
+	background: $base03;
 }
 
 a {
