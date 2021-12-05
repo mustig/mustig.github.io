@@ -1,0 +1,18 @@
+---
+layout: default
+title: Main page
+weight: -10
+---
+{% include nav.html %}
+
+<h1>Welcome</h1>
+
+<ul class="postlisting">
+{% for post in site.posts %}
+<li>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    {{ post.excerpt }}
+    <small>{{ post.author | default: site.author }} {{ post.date | date: "%Y-%m-%d"}}</small>
+</li>
+{% endfor %}
+</ul>

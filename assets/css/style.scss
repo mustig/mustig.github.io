@@ -56,6 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
+	// font-family: "Fira Code";
 	color: $base1;
 	background: $base03;
 }
@@ -71,4 +72,12 @@ ol {
 
 ul.nav {
 	color: $base01;
+}
+
+ul.postlisting li {
+	list-style: none;
+}
+
+ul.postlisting li p {
+	padding-left: 0.2em;
 }
