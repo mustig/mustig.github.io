@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ham words
+# title: Ham words
 ---
 {% include nav.html %}
 
