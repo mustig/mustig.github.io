@@ -1,0 +1,12 @@
+<ul>
+{% assign pagelist = site.pages | sort_natural: 'weight' %}
+{% for p in pagelist %}
+  {% if p.title != nil %}
+    {% if p.url != page.url %}
+    <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+    {% else %}
+    <li>{{ p.title }}</li>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+</ul>

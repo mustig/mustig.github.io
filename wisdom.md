@@ -2,6 +2,8 @@
 layout: default
 title: Radio wisdom
 ---
+{% include nav.html %}
+
 # Radio wisdom
 Things other hams have said in various contexts that I believe are good to remember. These statements are not necessarily, universally true.
 

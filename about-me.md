@@ -2,6 +2,8 @@
 layout: default
 title: About me
 ---
+{% include nav.html %}
+
 # About me
 
 
@@ -21,6 +23,6 @@ title: About me
 ### Bits and bobs
 
  - Msi.sdr
- - Nooelec Smart
+ - Nooelec NESDR
  - NanoVNA
  - TinySA
