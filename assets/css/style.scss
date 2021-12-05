@@ -37,6 +37,7 @@ $green:     #859900;
 
 header {
 	background: none;
+	border-bottom: 1px dashed $green;
 }
 
 header h1 {
@@ -45,8 +46,12 @@ header h1 {
 
 }
 
+header h2 {
+	color: $base01;
+}
+
 h1, h2, h3, h4, h5, h6 {
-	color: $violet;
+	color: $blue;
 	text-shadow: none;
 }
 
@@ -56,6 +61,14 @@ body {
 }
 
 a {
-	color: $orange;
+	color: $green;
 	text-shadow: none;
+}
+
+ol {
+	list-style-type: decimal-leading-zero;
+}
+
+ul.nav {
+	color: $base01;
 }
