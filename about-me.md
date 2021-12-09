@@ -14,6 +14,10 @@ A 30-something engineer who wishes BNC were the default connector, loves the sou
 - IC-7300
 - DX Commander Classic, 40/30/20/17/15/12/10
 - ATU: LDG AT200 Pro II
+- PSU: Generic 50 A switcher from WiMo
+- Begali Simplex
+- Yaesu FT-2980 (presently antenna-less) for FM repeaters
+- Anytone 778 (also antennaless) for 70 cm FM
 - Beyerdynamic DT-770 Pro 250 &Omega;
 
 ### When on the move
